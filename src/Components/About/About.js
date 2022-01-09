@@ -1,6 +1,8 @@
 import React from "react";
 import "./About.css";
 import aboutImg from "../img/_DSC9596.jpg";
+import altImg from "../img/IMG_20210724_100725 (1).jpg";
+
 function About() {
     window.addEventListener("scroll", function(){
       const upToTop = document.querySelector("a.bottom__to__top");
@@ -11,7 +13,7 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col__2">
-            <img src={aboutImg} alt="" className="about__img" />
+            <img src={aboutImg} alt={altImg} className="about__img" />
           </div>
           <div className="col__2">
             <h1 className="about__heading">ABOUT ME</h1>
