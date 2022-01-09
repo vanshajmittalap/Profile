@@ -19,7 +19,7 @@ function Project() {
            <div className="row">
              
              <ProjectComponent pic={Project1} name={"TextSimulator"} description={"This is a Text Simulation Website. It Simulate on Text."} lk={'https://github.com/vanshajmittalap/TextSimulator'}/>
-             <ProjectComponent pic={Project2} name={"Portfolio"} description={"This is my Portfolio Website. This website displays my all details and work. It is responsive and dynamic website"} lk={'https://github.com/vanshajmittalap/Portfolio'}/>
+             <ProjectComponent pic={Project2} name={"Portfolio"} description={"This is my Portfolio Website. This website displays my all details and work. It is responsive and dynamic website"} lk={'https://github.com/vanshajmittalap/Profile'}/>
              <ProjectComponent pic={Project3} name={"TextSimulator"} description={"This is a Text Simulation Website. It Simulate on Text."} lk={'https://github.com/vanshajmittalap/TextSimulator'}/>
              <ProjectComponent pic={Project4} name={"TextSimulator"} description={"This is a Text Simulation Website. It Simulate on Text."} lk={'https://github.com/vanshajmittalap/TextSimulator'}/>
 
