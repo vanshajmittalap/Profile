@@ -20,7 +20,7 @@ function Project() {
              
              <ProjectComponent pic={Project1} name={"TextSimulator"} description={"This is a Text Simulation Website. It Simulate on Text."} lk={'https://github.com/vanshajmittalap/TextSimulator'}/>
              <ProjectComponent pic={Project2} name={"Portfolio"} description={"This is my Portfolio Website. This website displays my all details and work. It is responsive and dynamic website"} lk={'https://github.com/vanshajmittalap/Profile'}/>
-             <ProjectComponent pic={Project3} name={"TextSimulator"} description={"This is a Text Simulation Website. It Simulate on Text."} lk={'https://github.com/vanshajmittalap/TextSimulator'}/>
+             <ProjectComponent pic={Project3} name={"E_DIARY"} description={"This is a FullStack Website. It has full functionality of User Authentication as Sign Up and Login. It stores data seperately for every users in my own created MongoDB server."} lk={'https://github.com/vanshajmittalap/E-DIARY'}/>
              <ProjectComponent pic={Project4} name={"TextSimulator"} description={"This is a Text Simulation Website. It Simulate on Text."} lk={'https://github.com/vanshajmittalap/TextSimulator'}/>
 
            </div>
