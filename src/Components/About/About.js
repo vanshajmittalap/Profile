@@ -11,8 +11,7 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col__2">
-            <img src="http://localhost:3000/Profile/static/media/_DSC9596.dab8678bf9e3bf45b8ad.jpg
-" className="about__img" />
+            <img src='../img/_DSC9596.jpg' className="about__img" />
           </div>
           <div className="col__2">
             <h1 className="about__heading">ABOUT ME</h1>
