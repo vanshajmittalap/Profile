@@ -1,7 +1,5 @@
 import React from "react";
 import "./About.css";
-// import aboutImg from "../img/_DSC9596.jpg";
-// import altImg from "../img/IMG_20210724_100725 (1).jpg";
 
 function About() {
     window.addEventListener("scroll", function(){
