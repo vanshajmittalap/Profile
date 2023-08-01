@@ -1,0 +1,61 @@
+h1.heading {
+    font-size: 60px;
+    text-align: center;
+    font-family: Poppins,Bold;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: rgb(240, 10, 71);
+}
+.skills{
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/03/Dark-wallpaper-background-download.jpg);
+}
+p.heading.p__color {
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.2;
+    color: white;
+}
+.skills__box {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #191919;
+    padding: 55px;
+    transition: .4s ease;
+    border-style: inset;
+    border-color: #f9004d;
+}
+.skills__box:hover {
+    transform: translateY(10px);
+    background-image: linear-gradient( 
+90deg,#f61b10,#ef0963);
+}
+.skills__box:hover .icon{
+    color: #fff;
+}
+.skills__box:hover h1.skills__text{
+    color: #fff;
+}
+
+.icon {
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    display:flex;
+    justify-content: center;
+}
+h1.skills__text {
+    font-size: 19px;
+    font-family: Poppins,Bold;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 0px;
+    color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px){
+.skills__box {
+    padding: 32px;
+}
+}

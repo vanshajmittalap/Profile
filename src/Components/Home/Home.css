@@ -1,0 +1,202 @@
+.home__bg{
+    background-image: url(http://avante.biz/wp-content/uploads/1080p-Dark-Wallpapers/1080p-Dark-Wallpapers-014.jpg);
+    background-color: #010101;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+li.nav__items{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.home__content{
+    padding: 125px 0px;
+}
+h1.home__text{
+    font-size: 80px;
+    font-weight: 850;
+    letter-spacing: 5px;
+    color: rgba(198,201,216,.75);
+    font-family: Poppins,Bold;
+}
+h2.home__text{
+    font-size: 85px;
+    font-weight: 800;
+    font-family: Poppins,SemiBold;
+    color: rgb(40, 5, 199);
+}
+p{
+    font-size: 35px;
+    font-family: Poppins,cursive;
+    color: rgb(255, 4, 54);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    border-color: #f9004d;
+    border-style: inset;
+}
+.icon img{
+    border-radius: 100px;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    border-style: inset;
+}
+.header{
+    transition: .4s all ease;
+}
+.colz-icon{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.header.active{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 30px;
+    background-color: #191919;
+    height: 100px;
+    padding-top: 15px;
+}
+.toggle__menu {
+    display:none;
+    justify-content: flex-end;
+    float: right;
+    z-index: 1000;
+    width: 50%;
+}
+ul.sidebar.d__flex {
+    flex-wrap: wrap;
+    height: 100%;
+    position: fixed;
+    right: 0%;
+    background: #010101;
+    justify-content: center;
+    width: 300px;
+    top: 0%;
+    flex-direction: column;
+}
+li.sideNavbar{
+    padding: 25px 30px;
+}
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+.profile-picture-background{
+    height: 92%;
+    width: 92%;
+    background-image: url('../img/IMG_20210724_100725\ \(1\).jpg');
+    background-size: cover;
+    border-radius: 50%;
+    border-color: #f9004d;
+    border-style:inset;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.profile-picture-background:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1000px){
+    h2.home__text.pz__10{
+        font-size: 50px;
+    }
+    h1.home__text {
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .colz-icon{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 768px){
+ .header{
+     justify-content: space-between;
+ }
+ .home__bg{
+     height: 600px;
+ }
+ .navigation.pxy__30 {
+    display: none;
+}
+.toggle__menu{
+    display: flex;
+}
+h2.white.pz__10 {
+    font-size: 50px!important;
+}
+svg.bi.bi-justify.white.pointer {
+    width: 30px;
+    height: 30px;
+}
+.profile-picture{
+    width: 300px;
+    height: 300px;
+}
+p{
+    font-size: 18px;
+}
+h2.home__text.pz__10{
+    font-size: 40px;
+}
+h1.home__text {
+    font-size: 35px;
+}
+.profile-picture{
+    width: 150px;
+    height: 150px;
+}
+.colz-icon{
+    font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 425px){
+h2.home__text.pz__10{
+    font-size: 40px;
+}
+h1.home__text {
+    font-size: 35px;
+}
+.profile-picture{
+    width: 200px;
+    height: 200px;
+    margin-left: 55px;
+}
+.colz-icon{
+    font-size: 15px;
+}
+p{
+    font-size: 15px;
+}
+.container{
+    flex-flow: column-reverse;
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+}
+}
